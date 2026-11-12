@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+rclone.conf
+
+# Large datasets, models, and historical backups
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.tar
+*.tar.gz
+*.zip
+*.part[0-9]*
+*.part-[0-9]*
+
+# Local working outputs
+outputs/
+checkpoints/
+cache/
