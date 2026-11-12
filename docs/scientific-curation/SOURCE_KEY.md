@@ -1,0 +1,52 @@
+# Source key — master archive relative paths
+
+Every file below is listed in `MASTER_SHA256_MANIFEST.jsonl`. Paths are relative to `~/Documents/WIND_VISION_RESEARCH_MASTER/`, not to this curation ZIP. A source SHA-256 identifies the captured file, but does not alone validate its scientific interpretation.
+
+**[F872]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/matched_flow_v3_fullcov_preconditioned_100epoch_v1/final_test_872_one_time_v1/publication_evidence_v1/scientific_result_summary_v1.md`  
+SHA-256: `5925ab24d291307185f222acd0df8847407dc8ee225a4d8d823d86eef5b20cb1`
+
+**[PHYSICAL]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/final_completion_20261108_v1/cell04_physical_quality_audit_v1/quality_report_v1.json`  
+SHA-256: `f37b6a48fe03c43a296b9fea9adcee97027fa8d4ea18d5f537a3c1127484d5ca`
+
+**[SPEED]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/final_completion_20261108_v1/cell07_four_arm_vae_benchmark_v1/four_arm_benchmark_v1.json`  
+SHA-256: `87fb1a31e2bb46cbd6869c35f30ea2bf574253a715104207525c2d487741994a`
+
+**[PERFORMANCE]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/final_completion_20261108_v1/cell30_performance_closeout_v1/performance_claims_audit.json`  
+SHA-256: `1600566fbb24036d7860892f5d5efc90f56e781001b844479316533cb51f4281`
+
+**[REPLAY]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/final_completion_20261108_v1/cell32_clean_replay_acceptance_v1/cell32_acceptance_report.json`  
+SHA-256: `3b492741e4cb51b0c3acb1dac61cdbc1fd210d94018102b28941713f7c320d44`
+
+**[HANDOFF]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/research_handoff_after_cell44_v1/research_handoff_v1.json`  
+SHA-256: `514a9063c738302b1ae47e727854a4a643aee54ea1d1e38bb6567aa2b474b9b7`
+
+**[S33]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/stage33_learned_eigenspectrum_5000_v2/report.json`  
+SHA-256: `9c69e631e613a7156db5ca0bfc96ef6abfc48034ec8146a4211544202d5a4225`
+
+**[S34]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/stage34_eigenspectrum_forensic_20261110T151857Z_2a78e6bc/stage34_diagnostic_report.json`  
+SHA-256: `be46e45fa50066a6a87cc5b272be49a0404fe6f3109a474b775b9d96d2298586`
+
+**[S35]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/stage35_saved_extension_evaluation_20261110T155709Z_684d9aa8/stage35_report.json`  
+SHA-256: `75f4f5b1fae577491611c2ee7981cd408cb4f3b3ee89cc1dd2ca7010b8e0c9b4`
+
+**[S37]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/stage37_innovation_law_ablation_20261110T163505Z_312872d1/stage37_report.json`  
+SHA-256: `6da1df218a3c4fb36eefe0e0f0cd53c6df37e1a564618b599065dad01832e5af`
+
+**[S39]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/fullscale_physicsnemo_training/stage39_reference_band_audit_20261110T165230Z_709551a9/stage39_report.json`  
+SHA-256: `61a5aba51bba1ee78f0f727b8e83e9cf7d855d1d7145f162e6e324e280d70d33`
+
+**[S43]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/stage43_sparse_encoder_diagnostic_20261110T204242Z_d37ba384/stage43_report.json`  
+SHA-256: `9af67581b1337f1962492baf6ebe9f56627a7160be840b371f9e7229aa826372`
+
+**[S44]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/stage44_decoder_basis_capacity_20261110T204924Z_46c6cdfc/stage44_report.json`  
+SHA-256: `9ac14c76385bc7922e37c842fd0add0fa9424326664e6b581d82823486b09224`
+
+**[S45]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/stage45_fourier_adapter_pilot_20261110T205833Z_3a26fa7e/stage45_report.json`  
+SHA-256: `ac9487ca2e3ca77f41c8d35ca2e05a529c648cc70df01c054c3aecad99769b5f`
+
+**[W74]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/w1_e74_frozen_neural_new_parameter_validation_20261105/scientific_report.json`  
+SHA-256: `8b05dd9929a1280ef77a1a088fab0dfa3158310d300e553448938760a2037b94`
+
+**[W75]** `11_RAW_SOURCE_SNAPSHOTS/GOOGLE_DRIVE/CLFM_Research_Results/physicsnemo_proposal_reproduction/evidence/w1_e75_parametric_baseline_challenge_20261105/scientific_report.json`  
+SHA-256: `b733b764511a0b37075708e5e1d089cb6c94bc0400e3114ae3b111ca6e1e6bf2`
+

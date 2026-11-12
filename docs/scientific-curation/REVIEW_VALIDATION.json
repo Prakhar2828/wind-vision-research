@@ -1,0 +1,12 @@
+{
+  "schema": "wind_vision_scientific_curation_v1",
+  "zip_sha256": "f91fd0b902c6ed93941c44bf1db8d6a23d07e47f4959033062d9675a320b0ca9",
+  "zip_member_count": 395,
+  "research_evidence_files": 393,
+  "source_manifest_entries": 3855,
+  "selected_files_sha256_checked": 393,
+  "selected_sha256_failures": [],
+  "report_date_utc": "2026-11-12T04:47:58.947994+00:00",
+  "scientific_model_replay_executed": false,
+  "archive_member_integrity_all_35_gib_checked": false
+}
