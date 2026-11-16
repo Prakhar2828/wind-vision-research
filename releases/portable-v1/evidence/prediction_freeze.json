@@ -1,0 +1,60 @@
+{
+  "format": "wind_vision_final872_predictions_frozen_v1",
+  "latents_sha256": "72ec49828694e06b991501efe44dd7f056ddc0d6b0d067117ada6c0dfc2c0ebd",
+  "methods": [
+    "FLOW_CENTERED_IDW",
+    "FLOW_FULL_IDW",
+    "VAE_FULL_IDW",
+    "KNOWN_MEAN_FULL_IDW",
+    "OBS_ESTIMATED_MEAN_FULL_IDW",
+    "DIRECT_WIND_IDW",
+    "FLOW_UNCORRECTED",
+    "VAE_UNCORRECTED"
+  ],
+  "prediction_archive_local_path": "/content/wind_vision_final872_predictions_v1.npz",
+  "prediction_archive_sha256": "23bd9fc7d5d0345d4a715b73a52094c4b5cd29398a2e759a96dfd501f6bd6372",
+  "prediction_shapes": {
+    "DIRECT_WIND_IDW": [
+      872,
+      60,
+      256
+    ],
+    "FLOW_CENTERED_IDW": [
+      872,
+      60,
+      256
+    ],
+    "FLOW_FULL_IDW": [
+      872,
+      60,
+      256
+    ],
+    "FLOW_UNCORRECTED": [
+      872,
+      60,
+      256
+    ],
+    "KNOWN_MEAN_FULL_IDW": [
+      872,
+      60,
+      256
+    ],
+    "OBS_ESTIMATED_MEAN_FULL_IDW": [
+      872,
+      60,
+      256
+    ],
+    "VAE_FULL_IDW": [
+      872,
+      60,
+      256
+    ],
+    "VAE_UNCORRECTED": [
+      872,
+      60,
+      256
+    ]
+  },
+  "protocol_sha256": "640d90de7532b1d3399136648ebd5af946967ae63bfc7e964e0233e94adc98e0",
+  "withheld_wind_values_read_before_freeze": false
+}

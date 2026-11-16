@@ -1,0 +1,15 @@
+{
+  "format": "wind-vision-portable-results-v1",
+  "files_sha256": {
+    "README.md": "6cdb66bae16588bed7a237b9e67ede56997a23ba0a42299e3e372238fa67a013",
+    "data/frozen_predictions_872.npz": "23bd9fc7d5d0345d4a715b73a52094c4b5cd29398a2e759a96dfd501f6bd6372",
+    "data/wind_test_data.hdf5": "e9c755f4d42e271a4bad6b82558d5a043835212dcdca8742a78889b93d035d31",
+    "evidence/four_arm_benchmark.json": "87fb1a31e2bb46cbd6869c35f30ea2bf574253a715104207525c2d487741994a",
+    "evidence/original_results.json": "906fed37e8630bb66a6a3de7bb1f6eb24a480e36131b45fc7714e5e24d5dcdb0",
+    "evidence/prediction_freeze.json": "be8cfcd70a7bc827f154031626d75775cff1cdd2398bf58e183a67b1d70acd43",
+    "evidence/protocol.json": "640d90de7532b1d3399136648ebd5af946967ae63bfc7e964e0233e94adc98e0",
+    "replay.py": "b327ac46ae40e67eaeaee28cfa37c56bf52b705b8d1f63ae81670f68a56f2f9c",
+    "requirements.txt": "2282e84ab1871eacf9649d063ee3a7038732def5492da9069928e2917950e5ea",
+    "tests/test_release.py": "36d3f29d7e66ca74507726c96cc085af118900db1ce596119e047b6866f26e6e"
+  }
+}
