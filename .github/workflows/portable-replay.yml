@@ -1,5 +1,6 @@
 name: Portable replay checks
 on:
+  workflow_dispatch:
   push:
     paths: ['releases/portable-v1/**', '.github/workflows/portable-replay.yml']
   pull_request:
@@ -17,3 +18,31 @@ jobs:
       - run: python -m pip install -r releases/portable-v1/requirements.txt
       - run: python -m unittest discover -s tests
         working-directory: releases/portable-v1
+  full-public-release-replay:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download published assets and verify checksums
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release download results-replay-v1 --repo Prakhar2828/wind-vision-research
+          sha256sum -c SHA256SUMS.txt
+          unzip -q WIND_VISION_PORTABLE_RESULTS_V1.zip
+      - name: Install pinned CPU dependencies
+        run: python -m pip install -r wind-vision-portable-v1/requirements.txt
+      - name: Run integrity, unit and full results checks
+        working-directory: wind-vision-portable-v1
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+        run: |
+          python replay.py --verify-only
+          python -m unittest discover -s tests
+          python replay.py --output ubuntu-public-release-receipt.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ubuntu-public-release-receipt
+          path: wind-vision-portable-v1/ubuntu-public-release-receipt.json
